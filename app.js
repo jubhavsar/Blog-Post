@@ -23,7 +23,6 @@ app.get('/', (req, res) => {
     startingContent: homeStartingContent,
     posts: posts
   });
-  console.log(posts);
 });
 
 app.get('/about', (req, res) => {
